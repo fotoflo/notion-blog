@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Header from '../components/header'
 import ExtLink from '../components/ext-link'
 import Features from '../components/features'
-import GitHub from '../components/svgs/github'
 import sharedStyles from '../styles/shared.module.css'
 
 export default () => (
@@ -24,7 +23,7 @@ export default () => (
 
       <div className="explanation">
         <p>
-         This is a stub for the AimHuge Blog, created with Notion and forlking
+         This is a stub for the AimHuge Blog, created with Notion and forking
           <ExtLink href="https://github.com/ijjk/notion-blog">
             ijjk's notion-blog
           </ExtLink>{' '}

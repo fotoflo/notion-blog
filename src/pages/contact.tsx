@@ -44,7 +44,7 @@ export default () => (
 
       <div className={contactStyles.name}>
         Alex Miller @ {' '}
-        <ExtLink href="https://aimhuge.com">Vercel</ExtLink>
+        <ExtLink href="https://aimhuge.com">AIMhuge</ExtLink>
       </div>
 
       <div className={contactStyles.links}>

@@ -8,7 +8,6 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
@@ -24,9 +23,9 @@ export default ({ titlePre = '' }) => {
           name="description"
           content="An example Next.js site using Notion for the blog"
         />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="Alex's Notion Blog" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@fotoflo" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>

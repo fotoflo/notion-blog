@@ -75,6 +75,7 @@ To run the project locally you need to follow steps 1 and 2 of [deploying](#depl
 
 1. Install dependencies `yarn`
 2. Expose `NOTION_TOKEN` and `BLOG_INDEX_ID` in your environment `export NOTION_TOKEN='<your-token>'`and `export BLOG_INDEX_ID='<your-blog-index-id>'` or `set NOTION_TOKEN="<your-token>" && set BLOG_INDEX_ID="<your-blog-index-id>"` for Windows
+   1. These are now in `.local-env` so run `$source .local-env` (see `.example-env` for the example)
 3. Run next in development mode `yarn dev`
 4. Build and run in production mode `yarn build && yarn start`
 

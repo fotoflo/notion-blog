@@ -9,7 +9,7 @@ import Twitter from '../components/svgs/twitter'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
 
-const home = process.env.HOME
+const home = process.env.HOME_HOST
 const mailto = process.env.MAILTO
 const myTwitter = process.env.TWITTER
 const myTwitterLink = `https://twitter.com/${myTwitter.substring(1)}`

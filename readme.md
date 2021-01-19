@@ -18,7 +18,7 @@ Deploy your own Notion blog with Vercel.
 
 or
 
-1. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
+1. Clone this repo `git clone https://github.com/fotoflo/notion-blog.git`
 2. Configure project with [`vc`](https://vercel.com/download)
 3. Add your `NOTION_TOKEN` and `BLOG_INDEX_ID` as environment variables in [your project](https://vercel.com/docs/integrations?query=envir#project-level-apis/project-based-environment-variables). See [here](#getting-blog-index-and-token) for how to find these values
 4. Do final deployment with `vc`
@@ -32,7 +32,7 @@ Note: if redeploying with `vc` locally and you haven't made any changes to the a
 ### Using the Pre-Configured Script
 
 1. Create a blank page in Notion
-2. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
+2. Clone this repo `git clone https://github.com/fotoflo/notion-blog.git`
 3. Install dependencies `cd notion-blog && yarn`
 4. Run script to create table `NOTION_TOKEN='token' BLOG_INDEX_ID='new-page-id' node scripts/create-table.js` See [here](#getting-blog-index-and-token) for finding the id for the new page
 

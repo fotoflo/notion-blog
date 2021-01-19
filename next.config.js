@@ -59,4 +59,19 @@ module.exports = {
     }
     return cfg
   },
+
+  env: {
+    CONTACT_EMAIL: process.env.CONTACT_EMAIL,
+    MAILTO: `mailto:${process.env.CONTACT_EMAIL}`,
+    CONTACT_NAME: process.env.CONTACT_NAME,
+    HOME: process.env.HOME,
+    BLOG_TITLE: process.env.BLOG_TITLE,
+    BLOG_NAME: process.env.BLOG_NAME,
+    OG_IMAGE_URL: process.env.OG_IMAGE_URL,
+    META_DESCRIPTION: process.env.META_DESCRIPTION,
+    TWITTER: process.env.TWITTER,
+    LINKEDIN: process.env.LINKEDIN,
+    GITHUB: process.env.GITHUB,
+    AVATAR_URL: process.env.AVATAR_URL,
+  },
 }

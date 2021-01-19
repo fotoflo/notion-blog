@@ -1,2 +1,17 @@
 export NOTION_TOKEN='a65391 ---THIS IS A REALLY LONG STRING --- e908a'
 export BLOG_INDEX_ID='60dd8da8 --- THIS ONE ISNT TOO LONG --- db9fb082'
+export BLOG_NAME='aimhuge'
+export BLOG_TITLE="Alex's Blog"
+export CONTACT_EMAIL='alex@aimhuge.com'
+export CONTACT_NAME='Alex Miller'
+export HOME='//aimhuge.com'
+export TWITTER='@fotoflo'
+export GITHUB='fotoflo'
+export LINKEDIN='https://www.linkedin.com/in/aimiller/'
+export OG_IMAGE_URL='https://notion-blog.now.sh/og-image.png',
+export META_DESCRIPTION="Alex's notion blog",
+export AVATAR_URL='https://s.gravatar.com/avatar/94bf2522039baf7a31211015dc7cda44?s=80'
+
+
+# EXAMPLE env
+# must pass through next.config.js

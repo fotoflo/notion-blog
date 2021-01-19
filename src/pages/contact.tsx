@@ -9,26 +9,36 @@ import Twitter from '../components/svgs/twitter'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
 
+const home = process.env.HOME
+const mailto = process.env.MAILTO
+const myTwitter = process.env.TWITTER
+const myTwitterLink = `https://twitter.com/${myTwitter.substring(1)}`
+const myGithub = process.env.GITHUB
+const myLinkedin = process.env.LINKEDIN
+const blogName = process.env.BLOG_NAME
+const contactName = process.env.CONTACT_NAME
+const avatarUrl = process.env.AVATAR_URL
+
 const contacts = [
   {
     Comp: Twitter,
-    alt: 'twitter icon',
-    link: 'https://twitter.com/fotoflo',
+    alt: myTwitter,
+    link: myTwitterLink,
   },
   {
     Comp: GitHub,
-    alt: 'github icon',
-    link: 'https://github.com/fotoflo',
+    alt: myGithub,
+    link: `https://github.com/${myGithub}`,
   },
   {
     Comp: LinkedIn,
     alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/aleximiller/',
+    link: myLinkedin,
   },
   {
     Comp: Envelope,
     alt: 'envelope icon',
-    link: 'mailto:alex@aimhuge.com',
+    link: mailto,
   },
 ]
 
@@ -37,14 +47,13 @@ export default () => (
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
       <div className={contactStyles.avatar}>
-        <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
+        <img src={avatarUrl} alt="avatar" height={45} />
       </div>
 
       <h1 style={{ marginTop: 0 }}>Contact</h1>
 
       <div className={contactStyles.name}>
-        Alex Miller @ {' '}
-        <ExtLink href="https://aimhuge.com">AIMhuge</ExtLink>
+        {contactName} @ <ExtLink href={home}>{blogName}</ExtLink>
       </div>
 
       <div className={contactStyles.links}>

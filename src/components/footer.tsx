@@ -1,9 +1,18 @@
-import ExtLink from './ext-link'
+import React, { useState } from 'react'
 
-export default () => (
-  <>
+import { HOST } from '../../src/lib/notion/server-constants.js'
+
+export default () => {
+  const contactName = process.env.CONTACT_NAME
+  const contactEmail = process.env.CONTACT_EMAIL
+  const host = process.env.HOME
+  const mailto = `mailto:${contactEmail}`
+
+  return (
     <footer>
-      <span>Alex Miller <a href="mailto:alex@aimhuge.com">alex@aimhuge.com</a></span>
+      <span>
+        {contactName} <a href={mailto}>{contactEmail}</a>
+      </span>
     </footer>
-  </>
-)
+  )
+}

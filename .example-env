@@ -13,5 +13,7 @@ export META_DESCRIPTION="Alex's notion blog",
 export AVATAR_URL='https://s.gravatar.com/avatar/94bf2522039baf7a31211015dc7cda44?s=80'
 
 
-# EXAMPLE env
+# Example env
 # must pass through next.config.js
+# and update the env on prod:
+# https://vercel.com/{username}/notion-blog/settings/environment-variables

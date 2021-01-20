@@ -4,7 +4,7 @@ import ExtLink from './ext-link'
 import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
-const home = process.env.HOME_HOST
+const home = process.env.HOME
 const twitter = process.env.TWITTER
 const blogTitle = process.env.BLOG_TITLE
 const ogImageUrl = process.env.OG_IMAGE_URL

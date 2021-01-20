@@ -374,3 +374,17 @@ footer span:nth-child(3) {
 footer span:nth-child(3) a {
   color: inherit;
 }
+
+.tag {
+  background-color: #ddd;
+  font-size: 12px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+}

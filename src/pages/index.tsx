@@ -84,6 +84,15 @@ export default ({ posts = [], preview }) => {
               {post.Date && (
                 <div className="posted">Posted: {getDateStr(post.Date)}</div>
               )}
+              {post.tags && (
+                <>
+                  <ul className="postTagList">
+                    {post.tags.split(',').map(tag => (
+                      <li className="tag">{tag}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
               <p>
                 {(!post.preview || post.preview.length === 0) &&
                   'No preview available'}
